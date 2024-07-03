@@ -12,7 +12,7 @@ This repository contains backend code and test scripts. Follow the instructions 
    git clone https://github.com/edgar118/test_BackEnd_dev.git
    ```
    ```bash
-   cd test_BackEnd_dev.git
+   cd test_BackEnd_dev
    ```
    ```bash
    python test_backend.py
