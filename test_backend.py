@@ -28,8 +28,8 @@ def is_not_valid_transaction(transactions: list):
         
         #Iteration of non-repeated cards where validation is performed based on countries and time between transactions
         for trans in card_transactions[card_id]:
-            trans_id, trans_city, trans_tiempo = trans
-            if city != trans_city and timestamp - trans_tiempo <= 30:
+            trans_id, trans_city, travel_time = trans
+            if city != trans_city and timestamp - travel_time <= 30:
                 invalid_transaction.append(transaction_id)
         
         #We append the card data
